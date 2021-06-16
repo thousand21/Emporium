@@ -1,0 +1,44 @@
+.image1{
+    background-image: url(../img/services/service-1.jpg);
+    background-repeat: no-repeat ;
+    background-size: contain;
+    width: 32%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image2{
+    background-image: url(../img/services/service-2.jpg);
+    background-repeat: no-repeat ;
+    background-size: contain;
+    width: 32%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image3{
+    background-image: url(../img/services/slider-3.jpg);
+    background-repeat: no-repeat ;
+    background-size: contain;
+    width: 32%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images3{
+    margin-top: 50px;
+    display: flex;
+    /* height: 150px; */
+    
+    justify-content: space-around;
+}
+.textImg{
+    color: white;
+    border-bottom: solid white 3px;
+    width: 70%;
+    text-align: center;
+}
