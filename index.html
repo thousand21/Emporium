@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./public/css/app.css">
 </head>
 <body>
@@ -20,7 +22,7 @@
             <div><a href="">ELEMENT</a></div>
             <div><a href="">ABOUT</a></div>
             <div><a href="">CONTACT</a></div>
-            <div><button>Connexion</button></div>
+            <div> <button class="btncouleur blanc"></button> <button class="noir btncouleur"></button><button>Connexion</button></div>
             
         </div>
     </header>
@@ -47,7 +49,7 @@
    </div>
 
    <!-- 3images -->
-   <div class="images3 container">
+   <section class="images3 ">
         <div class="image1">
             <h2 class="textImg">Living Room</h2>
         </div>
@@ -57,13 +59,351 @@
         <div class="image3">
             <h2 class="textImg">Clothes</h2>
         </div>
-   </div>
+    </section>
+
+   <!-- Recent Products -->
+    <section class="container">
+        <div>
+            <h2>Recents Products</h2>
+        </div>
+        <!-- 1ere ligne -->
+        <div class="row row1">
+            <div class="col-4">
+                <div class="img4">
+
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="img5">
+
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="img6">
+
+                </div>
+            </div>
+        </div>
+        <!-- 2eme ligne -->
+        <div class="row rowtext">
+            <div class="col-4 product">
+                <p>Luxury Sofa</p>
+                <p><span class="ok">$600.00</span></p>
+            </div>
+            <div class="col-4 product d-flex">
+                <div class=" salesup w-50 align-items-center">
+                    <div class="sales">
+                        Sales
+                    </div>
+                </div>
+                <div>
+                    <p>Leather Gloves</p>
+                <p><span>$34.00</span><span class="ok">$27.00</span></p>
+                </div>
+                
+            </div>
+            <div class="col-4 product">
+                <p>Colorful Bowl</p>
+                <p><span class="ok">$18.00</span></p>
+                
+            </div>
+        </div>
+        <!-- 3eme ligne -->
+        <div class="row row1">
+            <div class="col-4">
+                <div class="img7">
+
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="img8">
+
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="img9">
+
+                </div>
+            </div>
+        </div>
+
+       <!--  4eligne -->
+       <div class="row rowtext">
+        <div class="col-4 product d-flex">
+            <div class=" salesup w-50 align-items-center">
+                <div class="sales">
+                    Sales
+                </div>
+            </div>
+                <div>
+                
+                    <p>Women Bag</p>
+                    <p><span>$420.00</span><span class="ok">$350.00</span></p>
+                </div>
+                
+            
+        </div>
+        <div class="col-4 product ">
+            <p>Minimal T-Shirt</p>
+            <p><span class="ok">$15.00</span></p>
+            
+            
+        </div>
+        <div class="col-4 product">
+            <p>Plates Set</p>
+            <p><span class="ok">$30.00</span></p>
+            
+        </div>
+    </div>
+
+    <!-- 5eme ligne -->
+    <div class="row row1">
+        <div class="col-4">
+            <div class="img10">
+
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="img11">
+
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="img12">
+
+            </div>
+        </div>
+    </div>
+
+   <!--  6eligne -->
+   <div class="row rowtext">
+    <div class="col-4 product">
+        <p>Modern Sofa</p>
+        <p><span class="ok">$900.00</span></p>
+        
+        
+            
+        
+    </div>
+    <div class="col-4 product ">
+        <p>Bed Linen</p>
+        <p><span class="ok">$79.00</span></p>
+        
+        
+    </div>
+    <div class="col-4 product">
+        <p>Minimal Shoes</p>
+        <p><span class="ok">$60.00</span></p>
+        
+    </div>
+</div>
+    </section>
+  <!--  DISCCOVER BANNIERE -->
+  <section class="bannerDiscover">
+    <div class="d-flex flex-column justify-content-center align-items-center">
+        <h2 class="bannerTxt">
+            Discover Thousands of Great Products
+        </h2>
+        <button class="btnLearn">LearnMore</button>
+    </div>
+  </section>
+
+
+  <!-- carrouseeel -->
+  <section class="carrouselle">
+      <h2>Hot Fashion Products</h2>
+  <div class="owl-carousel owl-theme">
+     <!--  item1 -->
+    <div class="item product">
+        <div class="img4">
+
+        </div>
+        <p>Luxury Sofa</p>
+        <div><p><span class="ok">$600.00</span></p></div>
+    </div>
+    <!-- item2 -->
+    <div class="item product">
+        <div class="img5">
+
+        </div>
+        <div class="d-flex">
+        <div class=" salesup w-50 align-items-center ">
+            <div class="sales">
+                Sales
+            </div>
+        </div>
+        <div>
+            <p>Leather Gloves</p>
+        <p><span>$34.00</span><span class="ok">$27.00</span></p>
+        </div>
+    </div>
+    </div>
+    <!-- item3 -->
+    <div class="item product">
+        <div class="img6">
+
+        </div>
+        <p>Colorful Bowl</p>
+        <div><p><span class="ok">$18.00</span></p></div>
+</div>
+
+<!-- item4 -->
+    <div class="item product">
+        <div class="img7">
+
+        </div>
+        <div class="d-flex">
+        <div class=" salesup w-50 align-items-center ">
+            <div class="sales">
+                Sales
+            </div>
+        </div>
+        <div>
+            <p>Women Bag</p>
+        <p><span>$420.00</span><span class="ok">$350.00</span></p>
+        </div>
+    </div>
+    </div>
+   <!--  item5 -->
+   <div class="item product">
+    <div class="img8">
+
+    </div>
+    <p>Minimal T-shirt</p>
+    <div><p><span class="ok">$15.00</span></p></div>
+</div>
+
+<!-- item6 -->
+<div class="item product">
+    <div class="img9">
+
+    </div>
+    <p>Plates set</p>
+    <div><p><span class="ok">$30.00</span></p></div>
+</div>
+
+<!-- item7 -->
+<div class="item product">
+    <div class="img10">
+
+    </div>
+    <p>Modern Sofa</p>
+    <div><p><span class="ok">$900.00</span></p></div>
+</div>
+
+<!-- item8 -->
+<div class="item product">
+    <div class="img11">
+
+    </div>
+    <p>Bed Linen</p>
+    <div><p><span class="ok">$79.00</span></p></div>
+</div>
+
+<!-- item9 -->
+<div class="item product">
+    <div class="img12">
+
+    </div>
+    <p>Minimal Shoes</p>
+    <div><p><span class="ok">$60.00</span></p></div>
+</div>
+    
+</div>
+</section>
+
+<!-- section triple carte -->
+<section class="tripleCarte container d-flex">
+    <div class="div3">
+        <i class="fas fa-check-circle"></i>
+        <p>TRUSTED BY 10,000+ CUSTOMERS</p>
+        <p class="silver">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Molestiae, explicabo optio quae, est provident quas placeat nihil dolor 
+             dicta </p>
+        <button class="boutonCarte">Learn More</button>
+    </div>
+    <div class="div3">
+        <i class="fas fa-paper-plane"></i>
+        <p>Very fast Shipping</p>
+        <p class="silver">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Molestiae, explicabo optio quae, est provident quas placeat nihil dolor 
+             dicta </p>
+        <button class="boutonCarte">Learn More</button>
+    </div>
+    <div class="div3">
+        <i class="fas fa-check-circle"></i>
+        <p>TRUSTED BY 10,000+ CUSTOMERS</p>
+        <p class="silver">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Molestiae, explicabo optio quae, est provident quas placeat nihil dolor 
+             dicta </p>
+        <button class="boutonCarte">Learn More</button>
+    </div>
+</section>
    
-   
+<!-- footer -->
+<footer>
+<div class="d-flex divfooter  justify-content-center">
+    <div class="partfooter">
+    <p>ABOUT US</p>
+    <p class="silver">A wonderful serenity has taken possession <br>
+    of my entire soul,like these sweet mornings of springs 
+which I enjoy with my whole heart/ I am alone, and feel the charm
+of existence in this spot, which was created fpr the bliss of</p>
+    </div>
+    <div class="partfooter">
+        <p>RECENTS POSTS</p>
+        <ul>
+            <li>Hello World</li>
+            <li>Wonderful serenity has taken</li>
+            <li>In my soul and absorb its power</li>
+            <li>I hear the buzz of the title</li>
+        </ul>
+    </div>
+    <div class="partfooter">
+        <p>TAG CLOUD</p>
+        <div class="silver"><span class="borderSilver">business</span>  <span class="borderSilver">confidence</span>  <span class="borderSilver">gadgets</span></div>
+        <div class="silver"><span class="borderSilver">identity</span>  <span class="borderSilver">logo</span>  <span class="borderSilver">photography</span></div>
+        <div class="silver"><span class="borderSilver">time</span>  <span class="borderSilver">trips</span>  <span class="borderSilver">works</span></div>
+        <div class="silver"><span class="borderSilver">work space</span></div>
+    </div>
+</div>
+<div class="last">
+    <h2 class="silver">COPYRIGHT 2020 GOODLAYERS, ALL RIGHT RESERVED </h2>
+
+</div>
+</footer>
+
+
+
+
+
+
+
+
+
     <script src="./src/java/main.js" type="module"></script>
     <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
     
+    </script>
 </body>
 </html>
