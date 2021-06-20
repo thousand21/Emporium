@@ -11,6 +11,13 @@ section{
     height: 280px;
     background-size: contain;
     background-repeat: no-repeat;
+    position: relative;
+}
+.img4:hover .carte{
+    height: 20%;
+}
+.img4:hover .carteDroite{
+    height: 20%;
 }
 .img5{
     background-image: url(../img/products_mini/product-gloves.jpg);
@@ -18,11 +25,23 @@ section{
     background-size: contain;
     background-repeat: no-repeat;
 }
+.img5:hover .carte{
+    height: 20%;
+}
+.img5:hover .carteDroite{
+    height: 20%;
+}
 .img6{
     background-image: url(../img/products_mini/product-cups.jpg);
     height: 280px;
     background-size: contain;
     background-repeat: no-repeat;
+}
+.img6:hover .carte{
+    height: 20%;
+}
+.img6:hover .carteDroite{
+    height: 20%;
 }
 .row1{
     height: 280px;
@@ -60,11 +79,23 @@ section{
     background-repeat: no-repeat;
 
 }
+.img7:hover .carte{
+    height: 20%;
+}
+.img7:hover .carteDroite{
+    height: 20%;
+}
 .img8{
     background-image: url(../img/products_mini/product-tshitr.jpg);
     height: 280px;
     background-size: contain;
     background-repeat: no-repeat;
+}
+.img8:hover .carte{
+    height: 20%;
+}
+.img8:hover .carteDroite{
+    height: 20%;
 }
 
 .img9{
@@ -74,11 +105,23 @@ section{
     background-repeat: no-repeat;
 
 }
+.img9:hover .carte{
+    height: 20%;
+}
+.img9:hover .carteDroite{
+    height: 20%;
+}
 .img10{
     background-image: url(../img/products_mini/product-modern-sofa.jpg);
     height: 280px;
     background-size: contain;
     background-repeat: no-repeat;
+}
+.img10:hover .carte{
+    height: 20%;
+}
+.img10:hover .carteDroite{
+    height: 20%;
 }
 .img11{
     background-image: url(../img/products_mini/product-bed.jpg);
@@ -86,9 +129,44 @@ section{
     background-size: contain;
     background-repeat: no-repeat;
 }
+.img11:hover .carte{
+    height: 20%;
+}
+.img11:hover .carteDroite{
+    height: 20%;
+}
 .img12{
     background-image: url(../img/products_mini/product-shoes.jpg);
     height: 280px;
     background-size: contain;
     background-repeat: no-repeat;
+}
+.img12:hover .carte{
+    height: 20%;
+}
+.img12:hover .carteDroite{
+    height: 20%;
+}
+.carte{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:black;
+    color: white;
+    overflow: hidden;
+    width: 50%;
+    height: 0;
+    transition: .5s ease;
+}
+.carteDroite{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    background-color: rgb(221, 69, 69);
+    overflow: hidden;
+    width: 50%;
+    height: 0;
+    transition: .5s ease;
 }

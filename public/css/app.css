@@ -6136,6 +6136,12 @@ readers do not read off random characters that represent icons */
   margin-right: 10px;
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 0;
+}
+
 .grossePancarteGrise {
   background-color: #f3f3f3;
   height: 520px;
@@ -6227,6 +6233,15 @@ section div h2 {
   height: 280px;
   background-size: contain;
   background-repeat: no-repeat;
+  position: relative;
+}
+
+.img4:hover .carte {
+  height: 20%;
+}
+
+.img4:hover .carteDroite {
+  height: 20%;
 }
 
 .img5 {
@@ -6236,11 +6251,27 @@ section div h2 {
   background-repeat: no-repeat;
 }
 
+.img5:hover .carte {
+  height: 20%;
+}
+
+.img5:hover .carteDroite {
+  height: 20%;
+}
+
 .img6 {
   background-image: url(../img/products_mini/product-cups.jpg);
   height: 280px;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.img6:hover .carte {
+  height: 20%;
+}
+
+.img6:hover .carteDroite {
+  height: 20%;
 }
 
 .row1 {
@@ -6285,11 +6316,27 @@ section div h2 {
   background-repeat: no-repeat;
 }
 
+.img7:hover .carte {
+  height: 20%;
+}
+
+.img7:hover .carteDroite {
+  height: 20%;
+}
+
 .img8 {
   background-image: url(../img/products_mini/product-tshitr.jpg);
   height: 280px;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.img8:hover .carte {
+  height: 20%;
+}
+
+.img8:hover .carteDroite {
+  height: 20%;
 }
 
 .img9 {
@@ -6299,11 +6346,27 @@ section div h2 {
   background-repeat: no-repeat;
 }
 
+.img9:hover .carte {
+  height: 20%;
+}
+
+.img9:hover .carteDroite {
+  height: 20%;
+}
+
 .img10 {
   background-image: url(../img/products_mini/product-modern-sofa.jpg);
   height: 280px;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.img10:hover .carte {
+  height: 20%;
+}
+
+.img10:hover .carteDroite {
+  height: 20%;
 }
 
 .img11 {
@@ -6313,11 +6376,52 @@ section div h2 {
   background-repeat: no-repeat;
 }
 
+.img11:hover .carte {
+  height: 20%;
+}
+
+.img11:hover .carteDroite {
+  height: 20%;
+}
+
 .img12 {
   background-image: url(../img/products_mini/product-shoes.jpg);
   height: 280px;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.img12:hover .carte {
+  height: 20%;
+}
+
+.img12:hover .carteDroite {
+  height: 20%;
+}
+
+.carte {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  width: 50%;
+  height: 0;
+  transition: 0.5s ease;
+}
+
+.carteDroite {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  background-color: #dd4545;
+  overflow: hidden;
+  width: 50%;
+  height: 0;
+  transition: 0.5s ease;
 }
 
 .bannerDiscover {
@@ -6330,6 +6434,7 @@ section div h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-attachment: fixed;
 }
 
 .bannerTxt {
@@ -6387,6 +6492,41 @@ section div h2 {
   background-color: black;
   text-align: center;
   z-index: 8;
+}
+
+.formulaireCache {
+  display: none;
+  z-index: 20;
+}
+
+.formulaireShow {
+  display: block;
+  z-index: 20;
+}
+
+.opacity {
+  /* filter: brightness(20%); */
+  background-color: gray;
+}
+
+.formConnection {
+  display: none;
+  z-index: 20;
+}
+
+.formConnectionShow {
+  display: block;
+  z-index: 20;
+}
+
+.inscription {
+  display: none;
+  z-index: 20;
+}
+
+.inscriptionShow {
+  display: block;
+  z-index: 20;
 }
 
 /*!
